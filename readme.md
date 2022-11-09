@@ -2,6 +2,19 @@ This espresso source files have been patched so that it can be compiled with gcc
 
 psksvp@gmail.com
 
+-------------------
+Kan 2022/11/09:  
+Only exact can use  
+you should excute follow command line:  
+~~~
+./espresso filename -A(指定行) -B(指定行) -Dexact  
+例如 指定al2 A第1行 B第2行 使用exact  
+./espresso al2 -A1 -B2 -Dexact   
+   
+program will product 5 files.  
+a.pla b.pla and.pla or.pla xor.pla  
+~~~
+-------------------
 ~~~
 This distribution is just a reworked version of the c. 1989 Berkeley
 espresso source code.  All I've done is cut the number of files down
